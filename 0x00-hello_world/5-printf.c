@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print the string in the print function
- * Description: using the main function,
- * this program prints "with proper grammar, but the outcome is a piece of art,"
- * Return 0 if exited properly , otherwise non-zero
+ * main - prints the phrase with proper grammar,
+ * but the outcome is a piece of art,
+ * Return: 0 if exited properly, non-zero otherwise
  */
 int main(void)
 {
