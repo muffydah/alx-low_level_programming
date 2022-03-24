@@ -16,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 	while (dest[i] != '\0') /*i is index of null terminator*/
 		i++;
 
-	while (src[j] != src[n]) /*append replacing null terminator*/
+	while (src[j] != '\0' && j < n) /*append replacing null terminator*/
 	{
 		dest[i] = src[j];
 		i++;
